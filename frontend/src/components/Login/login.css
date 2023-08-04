@@ -1,0 +1,24 @@
+.card-title {
+  font-family: cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.signup {
+  font-size: 20px !important;
+}
+.btn.google {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 0.5px solid transparent; /* Add a transparent border initially */
+  transition: border-color 0.3s ease; /* Add a smooth transition effect */
+}
+.btn.google:hover {
+  border-color: black; /* Change the border color to black on hover */
+}
+/* Add any other styling as needed */
